@@ -23,7 +23,8 @@ scikit_learn_data/
 *credentials*
 *token*
 
-# Auxiliares LaTeX (se conserva main.pdf)
+# Informe y auxiliares LaTeX (el PDF se entrega localmente)
+/main.pdf
 *.aux
 *.bbl
 *.blg
