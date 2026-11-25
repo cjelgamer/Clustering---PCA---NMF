@@ -1,0 +1,88 @@
+{
+  "clustering": {
+    "n_train_original": 11314,
+    "n_muestra": 240,
+    "representacion": "TF-IDF 3000 → TruncatedSVD 80 → normalización L2",
+    "semilla": 42,
+    "mejor_linkage_ARI_NMI": "complete",
+    "metrics": [
+      {
+        "linkage": "ward",
+        "clusters": 20,
+        "silhouette": 0.070652,
+        "calinski_harabasz": 4.758172,
+        "davies_bouldin": 2.619363,
+        "ARI": 0.135616,
+        "NMI": 0.470173,
+        "segundos": 0.00245
+      },
+      {
+        "linkage": "complete",
+        "clusters": 20,
+        "silhouette": 0.052326,
+        "calinski_harabasz": 4.171061,
+        "davies_bouldin": 2.746141,
+        "ARI": 0.13593,
+        "NMI": 0.462375,
+        "segundos": 0.001403
+      },
+      {
+        "linkage": "average",
+        "clusters": 20,
+        "silhouette": 0.054187,
+        "calinski_harabasz": 3.692533,
+        "davies_bouldin": 2.314417,
+        "ARI": 0.120514,
+        "NMI": 0.44441,
+        "segundos": 0.002022
+      },
+      {
+        "linkage": "single",
+        "clusters": 20,
+        "silhouette": -0.119616,
+        "calinski_harabasz": 1.050261,
+        "davies_bouldin": 0.972145,
+        "ARI": -7.4e-05,
+        "NMI": 0.136942,
+        "segundos": 0.001157
+      }
+    ]
+  },
+  "eigenfaces": {
+    "imagenes": 400,
+    "identidades": 40,
+    "pixeles": 4096,
+    "split_por_identidad": "6 train / 2 validation / 2 test",
+    "componentes_seleccionados": 25,
+    "accuracy_test": 0.9125,
+    "precision_macro_test": 0.9166666666666666,
+    "recall_macro_test": 0.9125,
+    "f1_macro_test": 0.9083333333333332,
+    "varianza_acumulada": 0.8045830726623535,
+    "rmse_reconstruccion_test": 0.06862653909344403,
+    "seg_entrenamiento_knn": 0.0005077519999758806,
+    "seg_prediccion_test": 0.0012853739999627578,
+    "semilla": 42
+  },
+  "nmf": {
+    "corpus": "20 Newsgroups train como candidatos; test como consultas",
+    "n_candidatos": 11314,
+    "n_consultas": 60,
+    "temas_seleccionados": 10,
+    "precision@5": 0.30333333333333334,
+    "recall@5": 0.0026575152419837465,
+    "MAP@5": 0.22572222222222219,
+    "tfidf_baseline": {
+      "precision@5": 0.42666666666666664,
+      "recall@5": 0.0037386740511971845,
+      "MAP@5": 0.3610555555555556
+    },
+    "error_reconstruccion": 101.76352263903512,
+    "iteraciones": 76,
+    "semilla": 42
+  },
+  "versiones": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6"
+  }
+}

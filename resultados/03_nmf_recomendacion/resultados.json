@@ -1,0 +1,17 @@
+{
+  "corpus": "20 Newsgroups train como candidatos; test como consultas",
+  "n_candidatos": 11314,
+  "n_consultas": 60,
+  "temas_seleccionados": 10,
+  "precision@5": 0.30333333333333334,
+  "recall@5": 0.0026575152419837465,
+  "MAP@5": 0.22572222222222219,
+  "tfidf_baseline": {
+    "precision@5": 0.42666666666666664,
+    "recall@5": 0.0037386740511971845,
+    "MAP@5": 0.3610555555555556
+  },
+  "error_reconstruccion": 101.76352263903512,
+  "iteraciones": 76,
+  "semilla": 42
+}

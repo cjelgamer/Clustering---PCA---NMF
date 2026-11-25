@@ -1,0 +1,48 @@
+# Entornos, cachés y datos locales
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.cache/
+scikit_learn_data/
+20news_home/
+*.mat
+*.tar.gz
+*.pkz
+*.pkl
+*.joblib
+
+# Temporales, logs, credenciales
+*.tmp
+*.log
+*.swp
+.env
+.env.*
+!.env.example
+*credentials*
+*token*
+
+# Auxiliares LaTeX (se conserva main.pdf)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.xdv
+
+# Documentos internos y material de referencia
+repositorio.txt
+datos del curso.txt
+Actividad 05.pdf
+main_ejemplo_estetico.tex
+Guion_Exposicion.md
+Logo_UNAP.png
+
+# Figuras experimentales de alta resolución (fuente local)
+resultados/*/figuras/

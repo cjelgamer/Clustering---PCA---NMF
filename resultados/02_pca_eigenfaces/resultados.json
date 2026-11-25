@@ -1,0 +1,16 @@
+{
+  "imagenes": 400,
+  "identidades": 40,
+  "pixeles": 4096,
+  "split_por_identidad": "6 train / 2 validation / 2 test",
+  "componentes_seleccionados": 25,
+  "accuracy_test": 0.9125,
+  "precision_macro_test": 0.9166666666666666,
+  "recall_macro_test": 0.9125,
+  "f1_macro_test": 0.9083333333333332,
+  "varianza_acumulada": 0.8045830726623535,
+  "rmse_reconstruccion_test": 0.06862653909344403,
+  "seg_entrenamiento_knn": 0.0005077519999758806,
+  "seg_prediccion_test": 0.0012853739999627578,
+  "semilla": 42
+}

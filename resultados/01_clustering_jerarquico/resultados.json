@@ -1,0 +1,49 @@
+{
+  "n_train_original": 11314,
+  "n_muestra": 240,
+  "representacion": "TF-IDF 3000 → TruncatedSVD 80 → normalización L2",
+  "semilla": 42,
+  "mejor_linkage_ARI_NMI": "complete",
+  "metrics": [
+    {
+      "linkage": "ward",
+      "clusters": 20,
+      "silhouette": 0.070652,
+      "calinski_harabasz": 4.758172,
+      "davies_bouldin": 2.619363,
+      "ARI": 0.135616,
+      "NMI": 0.470173,
+      "segundos": 0.00245
+    },
+    {
+      "linkage": "complete",
+      "clusters": 20,
+      "silhouette": 0.052326,
+      "calinski_harabasz": 4.171061,
+      "davies_bouldin": 2.746141,
+      "ARI": 0.13593,
+      "NMI": 0.462375,
+      "segundos": 0.001403
+    },
+    {
+      "linkage": "average",
+      "clusters": 20,
+      "silhouette": 0.054187,
+      "calinski_harabasz": 3.692533,
+      "davies_bouldin": 2.314417,
+      "ARI": 0.120514,
+      "NMI": 0.44441,
+      "segundos": 0.002022
+    },
+    {
+      "linkage": "single",
+      "clusters": 20,
+      "silhouette": -0.119616,
+      "calinski_harabasz": 1.050261,
+      "davies_bouldin": 0.972145,
+      "ARI": -7.4e-05,
+      "NMI": 0.136942,
+      "segundos": 0.001157
+    }
+  ]
+}
