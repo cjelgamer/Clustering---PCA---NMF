@@ -36,6 +36,8 @@ scikit_learn_data/
 *.synctex.gz
 *.xdv
 
+# Fuentes y recursos locales del informe
+/main.tex
 # Documentos internos y material de referencia
 repositorio.txt
 datos del curso.txt

@@ -14,7 +14,7 @@
         "davies_bouldin": 2.619363,
         "ARI": 0.135616,
         "NMI": 0.470173,
-        "segundos": 0.00245
+        "segundos": 0.001713
       },
       {
         "linkage": "complete",
@@ -24,7 +24,7 @@
         "davies_bouldin": 2.746141,
         "ARI": 0.13593,
         "NMI": 0.462375,
-        "segundos": 0.001403
+        "segundos": 0.001344
       },
       {
         "linkage": "average",
@@ -34,7 +34,7 @@
         "davies_bouldin": 2.314417,
         "ARI": 0.120514,
         "NMI": 0.44441,
-        "segundos": 0.002022
+        "segundos": 0.001909
       },
       {
         "linkage": "single",
@@ -44,7 +44,7 @@
         "davies_bouldin": 0.972145,
         "ARI": -7.4e-05,
         "NMI": 0.136942,
-        "segundos": 0.001157
+        "segundos": 0.001326
       }
     ]
   },
@@ -60,8 +60,9 @@
     "f1_macro_test": 0.9083333333333332,
     "varianza_acumulada": 0.8045830726623535,
     "rmse_reconstruccion_test": 0.06862653909344403,
-    "seg_entrenamiento_knn": 0.0005077519999758806,
-    "seg_prediccion_test": 0.0012853739999627578,
+    "seg_ajuste_pca_train": 0.0816765330000635,
+    "seg_entrenamiento_knn": 0.0004865619998781767,
+    "seg_prediccion_test": 0.0008910990000003949,
     "semilla": 42
   },
   "nmf": {

@@ -13,7 +13,7 @@
       "davies_bouldin": 2.619363,
       "ARI": 0.135616,
       "NMI": 0.470173,
-      "segundos": 0.00245
+      "segundos": 0.001713
     },
     {
       "linkage": "complete",
@@ -23,7 +23,7 @@
       "davies_bouldin": 2.746141,
       "ARI": 0.13593,
       "NMI": 0.462375,
-      "segundos": 0.001403
+      "segundos": 0.001344
     },
     {
       "linkage": "average",
@@ -33,7 +33,7 @@
       "davies_bouldin": 2.314417,
       "ARI": 0.120514,
       "NMI": 0.44441,
-      "segundos": 0.002022
+      "segundos": 0.001909
     },
     {
       "linkage": "single",
@@ -43,7 +43,7 @@
       "davies_bouldin": 0.972145,
       "ARI": -7.4e-05,
       "NMI": 0.136942,
-      "segundos": 0.001157
+      "segundos": 0.001326
     }
   ]
 }

@@ -10,7 +10,8 @@
   "f1_macro_test": 0.9083333333333332,
   "varianza_acumulada": 0.8045830726623535,
   "rmse_reconstruccion_test": 0.06862653909344403,
-  "seg_entrenamiento_knn": 0.0005077519999758806,
-  "seg_prediccion_test": 0.0012853739999627578,
+  "seg_ajuste_pca_train": 0.0816765330000635,
+  "seg_entrenamiento_knn": 0.0004865619998781767,
+  "seg_prediccion_test": 0.0008910990000003949,
   "semilla": 42
 }
